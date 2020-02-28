@@ -22,31 +22,20 @@ public class javaClass6 {
 		// 11/10==1
 		//월을 입력받아서 해당 월이 몇일인지 출력하시오.
 		
-		int month=0;
-		int day=0;
-		java.util.Scanner sc=new java.util.Scanner(System.in);
-		System.out.print("월(month)을 입력하세요:");
-		month = sc.nextInt();
-		switch(month) {
-		case 1:
-			System.out.println("1월입니다");
-		case 2:
-			System.out.println("2월입니다");
-		case 3:
-			System.out.println("3월입니다");
-		case 4:
-			System.out.println("4월입니다");
-		case 5:
-			System.out.println("5월입니다");
-		case 6:
-			System.out.println("6월입니다");
-		case 7:
-			System.out.println("7월입니다");
-		case 8:
-			System.out.println("8월입니다");
-		}
-		
-			
+		//다음과 같이 사람의 몸무게와 키를 입력받아 비만도를 출력하는 프로그램을 작성하세요.
+		//그리고 비만도가 20이하면 '저체중', 20이상 25 미만이면 '표준체중', 25이상이면
+		//'과체중'이 출력되도록 하세요. 비만도는 (키/100)*(키/100)으로 계산합니다.
+		java.util.Scanner sp=new java.util.Scanner(System.in);
+		System.out.println("몸무게와 키를 입력하세요:");
+		int a=Integer.parseInt(sp.nextLine());
+		int b=Integer.parseInt(sp.nextLine());
+		int c=(a/100)*(a/100); //이게 비만도
+		if(19<c&&c>25) {
+			System.out.println(c+"로 표준체중입니다.");
+		}else if(c<21) {
+			System.out.println(c+"저체중입니다.");
+		}else
+			System.out.println(c+"과체중입니다.");
 			
 		
 //		if(조건1) {
