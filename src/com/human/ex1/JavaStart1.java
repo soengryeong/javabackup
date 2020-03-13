@@ -3,20 +3,30 @@ package com.human.ex1;
 public class JavaStart1 {
 
 	public static void main(String[] args) {
-		// 두 개의 정수를 입력 받아 두 수 사이 정수의 합을 구해라(두수포함)
-
-		java.util.Scanner se=new java.util.Scanner(System.in);
-		System.out.println("첫번째 정수를 입력하세요:");
-		int num1 = Integer.parseInt(se.nextLine());
-		System.out.println("두번째 정수를 입력하세요:");
-		int num2 = Integer.parseInt(se.nextLine());
+		/*다음과 같이 두 개의 정수를 입력받아 첫번째 수의 배수를 두번째 수만큼 출력하는 프로그램을 for문을 이용하여 작성하시오.
+		 * --------------------------실행결과------------------------------------------
+		 * 첫번째 숫자입력 : 5
+		 * 두번째 숫자입력 : 7
+		 * 5의 배수 6번 출력
+		 * 5,10,15,20,25,30,35
+		*/
 		
 		int sum=0;
-		
-		for(int i= num1; i<=num2; ++i) {
-			sum += i;
+
+		System.out.print("첫번째 숫자 입력:");
+		java.util.Scanner rd=new java.util.Scanner(System.in);
+		int num1= Integer.parseInt(rd.nextLine());
+		System.out.print("두번째 숫자 입력:");
+		java.util.Scanner re=new java.util.Scanner(System.in);
+		int num2= Integer.parseInt(rd.nextLine());
+		System.out.print(num1+"의 배수"+num2+"번 출력");
+		if(num1%num1==0) {
+			for(jj)
+			
 			
 		}
-		System.out.println("두 정수의 합은"+sum+"입니다");
+		
+
+		
 	}
 }
