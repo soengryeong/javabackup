@@ -18,15 +18,21 @@ public class JavaStart1 {
 		int num1= Integer.parseInt(rd.nextLine());
 		System.out.print("두번째 숫자 입력:");
 		java.util.Scanner re=new java.util.Scanner(System.in);
-		int num2= Integer.parseInt(rd.nextLine());
-		System.out.print(num1+"의 배수"+num2+"번 출력");
-		if(num1%num1==0) {
-			for(jj)
-			
-			
+		int num2= Integer.parseInt(re.nextLine());
+		System.out.println(num1+"의 배수"+num2+"번 출력");
+		int a=0;
+		for(int i=1; i<=num2; i++) {
+			a=num1*i;
+			System.out.println(a);
 		}
+		
+	
+	
+		
+
+	}
 		
 
 		
 	}
-}
+
