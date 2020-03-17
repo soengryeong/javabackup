@@ -7,10 +7,10 @@ public class quize03 {
 		java.util.Scanner re=new java.util.Scanner(System.in);
 		
 		//for문
-//		for( ; ; ) {
-//			System.out.println("입력하세요:");
-//			String a =re.next();
-//			if(a.equals("종료")) break;
+		for( ; ; ) {
+			System.out.println("입력하세요:");
+			String a =re.next();
+			if(a.equals("종료")) break;
 		}
        //while문
 //      	System.out.println("입력하세요:");
