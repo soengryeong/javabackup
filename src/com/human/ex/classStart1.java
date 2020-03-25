@@ -42,14 +42,23 @@ class Card{
 	public String cardDisplay() {
 		return shape+number;
 	}
+	public Card() {}
+	public Card(String shape, String number) {
+		this.shape=shape;
+		this.shape=number;
+	}
 	
 }
+
+
 	public static void main(String[] args) {
 		System.out.println(Card.area());
 		//System.out.println(Card.cardDisplay());
+		//c ->참조변수 참조변수에는 주소가 들어 있음
+		//참조변수에 들어 있는 값을 참조값 (메모리주소가 값이 됨)
 		Card c=new Card();
 		System.out.println(c.cardDisplay());
 
 	}
+	}
 
-}
